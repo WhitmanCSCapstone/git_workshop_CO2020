@@ -4,8 +4,9 @@ cheat = True
 
 def main():
     if (cheat):
+        print_file('beszel.txt')
         for file in os.listdir():
-            if file.endswith(".txt"):
+            if file.endswith(".txt") and file != 'beszel.txt':
                 print_file(file)
         return
     # Part 5: Copy this line to call `print_file` on your own file.
