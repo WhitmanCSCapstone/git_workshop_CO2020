@@ -259,6 +259,7 @@ $ git push
 Finally, we can re-request our partner's review. Go back to your own pull request and use the "Reviewers" section on the right to re-request their review.
 
 Part 6: Code review again
+-------------------------
 
 Once your partner is ready for you to re-review their code, we can checkout their branch again. Even though it says we're up to date, we need to `pull` to get the latest changes.
 
@@ -292,6 +293,6 @@ Now it should say both "Hello, world!" and the contents of your partner's file. 
 Go back to your partner's pull request and approve the changes.
 
 Part 7: Merging
---------------
+---------------
 
 Once your partner approves your pull request, you can finalize it by merging it into `master`. Go back to your own pull request and click "Merge pull request", then "Confirm merge". Your changes are now reflected in the `master` branch, and your feature is complete!
