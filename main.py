@@ -7,6 +7,7 @@ def main():
         for file in os.listdir():
             if file.endswith(".txt"):
                 print_file(file)
+        return
     # Part 5: Copy this line to call `print_file` on your own file.
     print_file('beszel.txt')
     print_file('abbey.txt')
