@@ -3,6 +3,8 @@ def main():
     print_file('beszel.txt')
     print_file('abbey.txt')
     print_file('ChrisPyles.txt')
+    print_file('beszel.txt')
+    print_file('Rager.txt')
     print_file('leaf.txt')
     print_file('owen.txt')
     print_file('Yeon.txt')
