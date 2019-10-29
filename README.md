@@ -49,11 +49,13 @@ ticket to inform others of the need you've noticed. On GitHub, these tickets
 are called "issues". In a browser, open the GitHub issues tab for our
 repository. Create a new issue that calls for the addition of a new text file.
 
-
+![new ticket](/images/new-ticket.png)
 
 Since you'll be resolving your own issue, you can assign it to yourself using
 the "Assignees" section on the right. This signals to your teammates that
 you have this issue handled.
+
+![assignees](/images/assignees.png)
 
 Part 3: Making a change
 -----------------------
@@ -151,13 +153,13 @@ To check your changes for quality and correctness, you and your partner will rev
 
 First, request a review from your partner using the "Reviewers" section on the right. Assign yourself under "Assignees", since you'll be responsible for making revisions.
 
-[screenshot of sidebar]
+![sidebar](/images/sidebar.png)
 
 Once your partner has requested your review, find their pull request in the
 "Pull requests" tab. Right below the title, we can see the name of the branch
 being merged. Copy the name of your partner's feature branch to be used next.
 
-[screenshot of pull request header]
+![PR header](/images/pr-header.png)
 
 Our local repository doesn't know about new branches on the remote repository, so we need to fetch the latest list of branches. `git fetch` will inform the local repository of the remote's latest changes without yet modifying any files.
 
