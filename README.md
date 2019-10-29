@@ -1,11 +1,11 @@
-This activity is intended for groups of two. Each partner should follow along independently. Note that the `$` character marks the start of the command prompt, while subsequent lines are printed by the command.
+This activity is intended for groups of two. Each partner should follow along on a seperate computer. Note that the `$` character marks the start of the command prompt, while subsequent lines are printed by the command.
 
 Part 1: Cloning the repository
 ------------------------------
 
 A Git repository is a directory in which a Git project lives. These repositories can be stored on the GitHub server. We call this version of the repository the "remote" repository. Our first step is to copy a repository to our local machine. This type of repository is called the "local" repository. 
 
-- Click on the green "Clone or download" dropdown and copy the URL to your
+- Click on the green "Clone or download" button above and copy the URL to your
   clipboard.
 - Open a terminal and `cd` to a directory that you want to work in.
 - Clone the repository with `git clone` followed by the URL from earlier.
@@ -46,7 +46,7 @@ Part 2: Documenting a need
 
 When you find that a shared project needs to be changed, it's best to make a
 ticket to inform others of the need you've noticed. On GitHub, these tickets
-are called "issues". In a browser, open the GitHub issues tab for our
+are called issues. In a browser, open the GitHub Issues tab for our
 repository. Create a new issue that calls for the addition of a new text file.
 
 ![new ticket](/images/new-ticket.png)
@@ -60,13 +60,10 @@ you have this issue handled.
 Part 3: Making a change
 -----------------------
 
-When managing issues, it is in good practice to create new branches for each one. A "branch" is a series of changes. The main branch is called `master`, and other branches contain changes that `master` doesn't have yet. This git feature is very useful, particularly because it allows us to effectively save our progress when we want to work on new things. 
-
-
-
+It's good practice to create a new branch whenever work begins on an issue. A branch is a series of changes. The main branch is called `master`, and other branches contain changes that `master` doesn't have yet. This feature lets us save our progress on one issue when switching to work on another. 
 
 We'll make a new branch for our changes. A branch is normally named after a
-feature, but we want to make sure our branch names don't conflict with one
+bug or feature, but we want to make sure our branch names don't conflict with one
 another. For this exercise, name your branch something arbitrary that's unique
 within this class:
 
@@ -87,6 +84,7 @@ nothing to commit, working tree clean
 
 Now we've made our branch, but it only exists locally. We need to make a
 matching branch on GitHub and send our changes to it. The command `push`, with the flag `--set-upstream`,  does just that! We include the name of our upstream, followed by the name of our new branch. In this case, that is `origin tulips-feature`. 
+
 ```
 $ git push --set-upstream origin tulips-feature
 Counting objects: 3, done.
@@ -103,7 +101,6 @@ To github.com:WhitmanCSCapstone/git_workshop_CO2020.git
 Branch 'tulips-feature' set up to track remote branch 'tulips-feature' from 'origin'.
 ```
 
-
 Others can now `checkout` our branch to see our changes in the filepath `origin/tulips-feature`. 
 
 Now that we have our feature branch we can make changes to the project files.
@@ -111,7 +108,7 @@ Create a new file with any editor and write a line of text. Save the file in
 the project directory with your name and the `.txt` extension.
 
 If we check the branch status, we see that the new file isn't being tracked
-by Git. To fix this, we use the `add` command followed by the name of the file we want to add. Let's do this and check this status of our repository again. Notice that if you want to add more files at once, the  `add .` command allows you to stage all untracked files. 
+by Git. To fix this, we use the `add` command followed by the name of the file we want to add. Let's do this and check this status of our repository again. Notice that if you want to add more files at once, the  `add .` command allows you to stage all untracked files.
 
 ```
 $ git status
