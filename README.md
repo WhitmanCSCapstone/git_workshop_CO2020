@@ -62,6 +62,8 @@ Part 3: Making a change
 
 It's good practice to create a new branch whenever work begins on an issue. A branch is a series of changes. The main branch is called `master`, and other branches contain changes that `master` doesn't have yet. This feature lets us save our progress on one issue when switching to work on another. 
 
+![diagram](/images/diagram.png)
+
 We'll make a new branch for our changes. A branch is normally named after a
 bug or feature, but we want to make sure our branch names don't conflict with one
 another. For this exercise, name your branch something arbitrary that's unique
