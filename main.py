@@ -1,5 +1,6 @@
 def main():
     # Part 5: Copy this line to call `print_file` on your own file.
+    print_file('beszel.txt')
     print_file('owen.txt')
 
 def print_file(path):
