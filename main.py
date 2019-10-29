@@ -5,6 +5,7 @@ def main():
     print_file('ChrisPyles.txt')
     print_file('leaf.txt')
     print_file('owen.txt')
+    print_file('Yeon.txt')
 
 def print_file(path):
     f = open(path, 'r')
