@@ -292,4 +292,4 @@ Go back to your partner's pull request and approve the changes.
 Part 7: Merging
 ---------------
 
-Once your partner approves your pull request, you can finalize it by merging it into `master`. Go back to your own pull request and click "Merge pull request", then "Confirm merge". Your changes are now reflected in the `master` branch, and your feature is complete!
+Once your partner approves your pull request, you can finalize it by merging it into `master`. Go back to your own pull request and click "Merge pull request", then "Confirm merge". Your changes are now reflected in the `master` branch, and your feature is complete! If your issue isn't yet closed, go ahead and close it now.
