@@ -1,7 +1,7 @@
 def main():
     # Part 5: Copy this line to call `print_file` on your own file.
     print_file('beszel.txt')
-
+    print_file('RobertQ123.txt')
 def print_file(path):
     f = open(path, 'r')
     for line in f:
@@ -9,3 +9,4 @@ def print_file(path):
 
 if __name__ == '__main__':
     main()
+
